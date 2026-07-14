@@ -1,0 +1,26 @@
+{
+  "name": "cambium-oracle-node",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest --verbose",
+    "pipeline": "ts-node src/index.ts --once"
+  },
+  "dependencies": {
+    "@cambium-protocol/sdk": "file:../cambium-sdk",
+    "@stellar/stellar-sdk": "^12.0.0",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}
