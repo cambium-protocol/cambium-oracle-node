@@ -1,0 +1,25 @@
+{
+  "network": "testnet",
+  "sorobanRpcUrl": "https://soroban-testnet.stellar.org",
+  "registryContractId": "",
+  "creditTokenContractId": "",
+  "zkVerifierContractId": "",
+  "zkCircuitsPath": "../cambium-zk-circuits",
+  "signerSecretKeyEnv": "ORACLE_SIGNER_SECRET",
+  "methodologies": {
+    "vm0007": {
+      "requiredSources": ["manual-audit"],
+      "maxReadings": 32,
+      "scalingFactor": 1000000,
+      "disputeWindowSeconds": 1209600
+    }
+  },
+  "connectors": {
+    "manual-audit": {
+      "filePath": "./data/manual-audit-sample.json"
+    }
+  },
+  "api": {
+    "port": 4000
+  }
+}

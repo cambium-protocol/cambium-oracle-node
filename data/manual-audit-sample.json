@@ -1,0 +1,13 @@
+{
+  "projectId": "0x0000000000000000000000000000000000000000000000000000000000000001",
+  "auditor": "GreenVerify Ltd.",
+  "auditDate": "2025-01-15",
+  "auditorSignature": "sample-signature-for-testing",
+  "readings": [
+    { "timestamp": 1704067200, "value": 1200, "unit": "tCO2e" },
+    { "timestamp": 1704153600, "value": 1350, "unit": "tCO2e" },
+    { "timestamp": 1704240000, "value": 1100, "unit": "tCO2e" },
+    { "timestamp": 1704326400, "value": 1420, "unit": "tCO2e" },
+    { "timestamp": 1704412800, "value": 1300, "unit": "tCO2e" }
+  ]
+}
