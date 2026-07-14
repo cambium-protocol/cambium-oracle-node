@@ -1,0 +1,8 @@
+{
+  "name": "VM0007",
+  "description": "GHG Emission Reductions from Grid Interconnection Projects",
+  "requiredSources": ["manual-audit"],
+  "maxReadings": 32,
+  "scalingFactor": 1000000,
+  "disputeWindowSeconds": 1209600
+}
